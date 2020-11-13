@@ -30,6 +30,7 @@ mongoose.set('debug', true);
 
 // Models & Routes
 require('./models/Users');
+require('./config/passport');
 
 // error handler
 if(!isProduction) {

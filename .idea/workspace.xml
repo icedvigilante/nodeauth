@@ -19,11 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b850ab03-7fb3-44cd-9a0d-8c4c3056a11f" name="Default Changelist" comment="initial commit">
-      <change afterPath="$PROJECT_DIR$/models/Users.js" afterDir="false" />
+    <list default="true" id="b850ab03-7fb3-44cd-9a0d-8c4c3056a11f" name="Default Changelist" comment="users schema built">
+      <change afterPath="$PROJECT_DIR$/routes/api/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/user.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/passport.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/passport.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
@@ -43,7 +45,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kEzwoQTYi8kZShB24SuwPRfsat" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -69,7 +73,7 @@
       <updated>1605280780810</updated>
       <workItem from="1605280782045" duration="401000" />
       <workItem from="1605282821469" duration="3508000" />
-      <workItem from="1605289527328" duration="3081000" />
+      <workItem from="1605289527328" duration="5149000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1605286636701</created>
@@ -78,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605286636701</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="users schema built">
+      <created>1605294135576</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605294135576</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -97,7 +108,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+    <MESSAGE value="users schema built" />
+    <option name="LAST_COMMIT_MESSAGE" value="users schema built" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605286644412">
