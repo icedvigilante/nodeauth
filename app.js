@@ -28,6 +28,9 @@ if(!isProduction) {
 mongoose.connect('mongodb://localhost/passport-tutorial', {useNewUrlParser: true, useUnifiedTopology: true})
 mongoose.set('debug', true);
 
+// Models & Routes
+require('./models/Users');
+
 // error handler
 if(!isProduction) {
     app.use((err, req, res) => {
